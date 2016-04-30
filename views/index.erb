@@ -1,0 +1,38 @@
+<section>
+  <div id="eka">
+        <h1 style="margin-top: 100px"><span class="onlythis">Only this<em> little</em> to go</span></h1>
+
+        <div id="calculator">
+        <div id="getting-started"></div>
+        <script type="text/javascript">
+          $("#getting-started")
+            .countdown("2016/06/06", function(event) {
+              $(this).text(
+               event.strftime('%D days %H:%M:%S')
+             );
+           });
+         </script>
+
+        <a href="#weather" class="down" style="margin: 100px"><div class="arrows">⬇</div></a>
+      </div>
+    </div>
+</section>
+
+<section>
+  <div id="weather">
+
+
+                <div id="weather_thing">
+                  <h2 style="color: white; opacity: 0.8">Current temperatures</h2>
+                  <div class="ui-weather">
+                    <div class="weatherbuttons">Melbourne: <%= @melbourne_weather.round %> °C </div> </div>
+
+                  <div class="ui-weather">
+                  <div class="weatherbuttons">Helsinki: <%= @helsinki_weather.round %> °C </div> </div>
+                  <p><a href="#top" class="arrows">⬆</a></p>
+                </div>
+
+
+      </div>
+
+</section>
