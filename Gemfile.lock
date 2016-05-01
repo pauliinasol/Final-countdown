@@ -1,3 +1,5 @@
-require 'sinatra'
-require 'httparty'
-require 'bundler'
+gem 'sinatra'
+gem 'bundler'
+gem 'bcrypt'
+
+source 'https://rubygems.org'
