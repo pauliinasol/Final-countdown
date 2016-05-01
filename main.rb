@@ -1,7 +1,7 @@
-require 'httparty'
+# require 'httparty'
 require 'sinatra'
 # require 'sinatra/reloader'
-require './db_config'
+
 
 
 get '/' do
