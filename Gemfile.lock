@@ -17,6 +17,7 @@ PLATFORMS
 DEPENDENCIES
   bcrypt
   sinatra
+  httparty
 
 BUNDLED WITH
    1.12.1
