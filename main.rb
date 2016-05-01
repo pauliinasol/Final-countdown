@@ -1,4 +1,4 @@
-# require 'httparty'
+require 'httparty'
 require 'sinatra'
 # require 'sinatra/reloader'
 
