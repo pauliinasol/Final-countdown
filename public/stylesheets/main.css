@@ -33,7 +33,8 @@ a:hover {
   background-color: white;
   padding: 10px;
   border: 1px dashed black;
-  opacity: 0.6
+  opacity: 0.6;
+  border-radius: 20%;
 }
 
 .onlythis {
